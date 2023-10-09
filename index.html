@@ -6,27 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./logic.js" defer></script>
 </head>
 
 <body>
     <div id="img-and-logo">
         <div id="logo-highlight">
-
-                <img src="./img/logo.png" alt="logo" id="logo-img">
-                <p id="logo-text">ODIN</p>
-
+            <img src="./img/logo.png" alt="logo" id="logo-img">
+            <p id="logo-text">ODIN</p>
         </div>
+        <p id="image-credit">Photo by Greg Rutkowski on <a href="https://www.artstation.com/artwork/KEd5o" target="_blank">artstation</a></p>
     </div>
     <div id="main-container">
         <p class="convincing-text">This is not a real online service!
-            You know you need something like this in your life to help you
-            realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            Join the wizard guild today to expand your knowledge of all 
+            things magical. Sign up <em>now</em> to get started.</p>
         <p class="convincing-text">You <em>know</em> you want to.</p>
-        <form action="#" method="get">
+        <form action="#" class="form">
             <div id="form-highlight">
                 <p id="form-title">Let's do this!</p>
                 <div id="inputs-container">
-                    <div class="col-one"> 
+                    <div class="col-one">
                         <label for="first_name">FIRST NAME</label>
                         <input type="text" id="first_name" name="first_name" required>
                         <label for="email">EMAIL</label>
@@ -39,12 +39,12 @@
                         <input type="text" id="last_name" name="last_name" required>
                         <label for="phone">PHONE NUMBER</label>
                         <input type="text" id="phone" name="phone">
-                        <label for="confirm_password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm_password" name="confirm_password" required>
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password" name="confirm_password" required>
                     </div>
                 </div>
             </div>
-            <button id="create-account" type="submit">Create Account</button>
+            <button id="create-account">Create Account</button>
         </form>
         <p id="login">Already have an account? <a href="">Log in</a></p>
     </div>
